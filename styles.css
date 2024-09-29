@@ -1,0 +1,205 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #4d4d4d;
+  color:#ffffff;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.video-container {
+  margin: 20px 0;
+  position: relative;
+  overflow: hidden;
+  padding-top: 56.25%; /* 16:9 ratio */
+}
+
+.video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.video-info {
+  margin: 20px 0;
+}
+
+.video-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.video-description {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.user-avatar {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.related-videos {
+  margin-top: 40px;
+}
+
+.related-video {
+  display: flex;
+  margin-bottom: 15px;
+  background: #333;
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  cursor: pointer;	
+}
+
+.related-video img {
+  width: 120px;
+  height: 90px;
+}
+
+.related-video-info {
+  padding: 10px;
+}
+
+.related-video-title {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.related-video-description {
+  font-size: 14px;
+}
+
+
+.main-footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.main-footer .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.main-footer .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.main-footer .col-md-4 {
+  flex-basis: 33.33%;
+  padding: 20px;
+}
+
+.main-footer h4 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.main-footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.main-footer li {
+  margin-bottom: 10px;
+}
+
+.main-footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.main-footer .social-icon {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+#like-btn, #dislike-btn, #remove-like-btn, #remove-dislike-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#like-btn {
+  background-color: #4CAF50;
+  color: #fff;
+}
+
+#like-btn:hover {
+  background-color: #3e8e41;
+}
+
+#dislike-btn {
+  background-color: #e74c3c;
+  color: #fff;
+}
+
+#dislike-btn:hover {
+  background-color: #c0392b;
+}
+
+#remove-like-btn, #remove-dislike-btn {
+  background-color: #333;
+  color: #ffffff;
+}
+
+#remove-like-btn:hover, #remove-dislike-btn:hover {
+  background-color: #aaa;
+}
+
+#likes-count, #dislikes-count {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 10px;
+}
+
+
+
+
+
+#subscribe-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  background-color:#4cc750;
+}
+
+#subscribe-btn:hover {
+  background-color: #3e8e41;
+}
+
+#subscription-status {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 10px;
+}
